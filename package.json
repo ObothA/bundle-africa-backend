@@ -1,0 +1,35 @@
+{
+  "name": "bundle-africa-backend",
+  "version": "1.0.0",
+  "description": "Typescript backend for bundle Africa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon dist/app.js",
+    "build": "npx tsc"
+  },
+  "author": "Abel Oboth",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-rate-limit": "^5.5.0",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/express-fileupload": "^1.1.7",
+    "@types/express-rate-limit": "^5.1.3",
+    "@types/hpp": "^0.2.2",
+    "@types/node": "^16.11.6",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.1.0",
+    "nodemon": "^2.0.14"
+  }
+}
